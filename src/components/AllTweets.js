@@ -6,7 +6,7 @@ import { TweenMax, Power3 } from 'gsap';
 
 const Alltweets = ({ userName, setTweetList, TweetList ,tweetFeed, setTweetFeed}) => {
 
-    //! GSAP animation for side bar
+    //! GSAP animation for side bar comes up
     let alltweets = useRef(null)
     useEffect(() => {
      TweenMax.from(alltweets, 3, {opacity: -1, y: -150, ease: Power3.easeOut, delay: .5})
