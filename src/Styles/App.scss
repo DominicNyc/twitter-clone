@@ -1,0 +1,52 @@
+$homeFont: 'Poppins';
+$globalBgColor: black;
+$twitter: #40bbf4;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+@mixin buttons {
+  border-style: none;
+  background-color: $twitter;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10%;
+  margin-top: 1em;
+  margin-left: 10px;
+  &:hover {
+
+    background-color: #40bbf48e;
+    cursor: pointer;
+  }
+
+}
+
+@import "./CreateTweet";
+@import "./SideBar";
+@import "./Tweet";
+@import "./Topnav";
+
+
+#root {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: $homeFont;
+  background-color: $globalBgColor;
+}
+
+html {
+  background-color: black;
+}
+
+.loginButton {
+  background-color: #212222;
+  text-decoration: none;
+  padding-bottom: 10px;
+  cursor: not-allowed;
+}

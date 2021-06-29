@@ -1,0 +1,231 @@
+.tweets {
+  @include flex;
+
+  .Like-button {
+    color: rgb(228, 227, 227);
+
+    &:hover {
+      color: red;
+      background-color: rgba(255, 255, 255, 0);
+    }
+  }
+
+  div {
+    color: rgb(75, 74, 74);
+  }
+
+  p {
+    color: white;
+    font-weight: 100;
+  }
+
+  .Delete-button {
+    color: rgb(122, 120, 120);
+
+    &:hover {
+      color: rgba(253, 11, 11, 0.986);
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tweets {
+    @include flex;
+    margin-left: 38%;
+    margin-top: 5%;
+    border-color: rgb(99, 98, 98);
+    border-style: solid;
+    border-radius: 10px;
+    width: 65%;
+    border-width: .5px;
+
+    .Like-button {
+      color: rgb(228, 227, 227);
+
+      &:hover {
+        color: red;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    }
+
+    div {
+      color: rgb(75, 74, 74);
+    }
+
+    p {
+      color: white;
+      font-weight: 100;
+    }
+
+    .Delete-button {
+      color: rgb(122, 120, 120);
+
+      &:hover {
+        color: rgba(253, 11, 11, 0.986);
+        background-color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .tweets {
+    @include flex;
+    margin-left: 38%;
+    margin-top: 2%;
+    border-color: rgb(99, 98, 98);
+    border-style: solid;
+    border-radius: 10px;
+    width: 55%;
+    border-width: .5px;
+
+    .Like-button {
+      color: rgb(228, 227, 227);
+
+      &:hover {
+        color: red;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    }
+
+    div {
+      color: rgb(75, 74, 74);
+    }
+
+    p {
+      color: white;
+      font-weight: 100;
+    }
+
+    .Delete-button {
+      color: rgb(122, 120, 120);
+
+      &:hover {
+        color: rgba(253, 11, 11, 0.986);
+        background-color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tweets {
+    @include flex;
+    margin-left: 38%;
+    margin-top: 2%;
+    border-color: rgb(99, 98, 98);
+    border-style: solid;
+    border-radius: 10px;
+    width: 55%;
+    border-width: .5px;
+
+    .Like-button {
+      color: rgb(168, 168, 168);
+
+      &:hover {
+        color: red;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    }
+
+    div {
+      color: rgb(75, 74, 74);
+    }
+
+    p {
+      color: white;
+      font-weight: 100;
+    }
+
+    .Delete-button {
+      color: rgb(122, 120, 120);
+
+      &:hover {
+        color: #40bbf4c4;
+        background-color: rgba(0, 0, 0, 0.041);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tweets {
+    @include flex;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-color: rgb(99, 98, 98);
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+    border-width: .5px;
+
+    .Like-button {
+      color: rgb(168, 168, 168);
+
+      &:hover {
+        color: red;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    }
+
+    div {
+      color: rgb(75, 74, 74);
+    }
+
+    p {
+      color: white;
+      font-weight: 100;
+    }
+
+    .Delete-button {
+      color: rgb(122, 120, 120);
+
+      &:hover {
+        color: #40bbf4c4;
+        background-color: rgba(0, 0, 0, 0.041);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tweets {
+    @include flex;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-color: rgb(99, 98, 98);
+    border-style: solid;
+    border-radius: 10px;
+    width: 35%;
+    border-width: .5px;
+
+    .Like-button {
+      color: rgb(168, 168, 168);
+
+      &:hover {
+        color: red;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    }
+
+    div {
+      color: rgb(75, 74, 74);
+      font-size: 18px;
+    }
+
+    p {
+      color: white;
+      font-weight: 100;
+    }
+
+    .Delete-button {
+      color: rgb(122, 120, 120);
+
+      &:hover {
+        color: #40bbf4c4;
+        background-color: rgba(0, 0, 0, 0.041);
+      }
+    }
+  }
+}

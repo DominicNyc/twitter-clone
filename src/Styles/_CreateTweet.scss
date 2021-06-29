@@ -1,0 +1,166 @@
+.createTweet {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50%;
+
+    button {
+        @include buttons;
+        text-transform: capitalize;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .createTweet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 130%;
+    
+        button {
+            @include buttons;
+            text-transform: capitalize;
+            
+        }
+
+        h3 {
+            color: $twitter;
+            font-size: 18px;
+        } 
+
+        .MuiOutlinedInput-root {
+            background-color: black;
+            width: 130%;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .createTweet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+    
+        button {
+            @include buttons;
+            text-transform: capitalize;
+            
+        }
+
+        h3 {
+            color: $twitter;
+        }
+
+        .MuiOutlinedInput-root {
+            background-color: black;
+            width: 150%;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .createTweet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 115%;
+    
+        button {
+            @include buttons;
+            text-transform: capitalize;
+            
+        }
+
+        h3 {
+            color: $twitter;
+            font-size: 18px;
+        }
+
+        .MuiOutlinedInput-root {
+            background-color: black;
+            width: 140%;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .createTweet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        width: 100%;
+        
+    
+        button {
+            @include buttons;
+            text-transform: capitalize;
+            
+        }
+
+        h3 {
+            color: $twitter;
+            font-size: 18px;
+        }
+
+        .MuiOutlinedInput-root {
+            background-color: black;
+            width: 150%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .createTweet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        width: 90%;
+
+        h3 {
+            color: $twitter;
+            font-size: 18px;
+        }
+
+        p {
+            color: red;
+        }
+        
+        
+    
+        button {
+            @include buttons;
+            text-transform: capitalize;
+            
+        }
+        .MuiOutlinedInput-root {
+         background-color: black;
+         width: 150%;
+        }
+    }
+}
