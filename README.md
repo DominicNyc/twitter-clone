@@ -1,4 +1,4 @@
-Demo ere https://leshotech.netlify.app/
+Demo here https://leshotech.netlify.app/
 
 If you would like your tweets to save into a feed. Run it locally then uncomment lines in
 AllTweets.js and CreateTweet.js Then run a json sever on port of your choice. Then put that 
