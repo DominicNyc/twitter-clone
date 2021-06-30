@@ -1,3 +1,13 @@
+Demo here https://domstwitter.netlify.app/
+
+If you would like your tweets to save into a Tweet feed. Run it locally then uncomment lines in
+AllTweets.js and CreateTweet.js. Then run a json sever on port of your choice. Then put that 
+port in Alltweet.js fetch call
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
