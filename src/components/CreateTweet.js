@@ -51,11 +51,11 @@ const CreateTweet = ({ setTextInput, textInput, setTweetList, TweetList, userNam
         e.preventDefault();
         setTweetList([...TweetList, { message: textInput, id: uuidv4() }])
 
-        fetch('http://localhost:8000/tweets', {
+        /*fetch('http://localhost:8000/tweets', {
           method: 'POST',
           headers: {"content-type": "application/json"},
           body: JSON.stringify({user: userName, tweet: textInput })
-        })
+        }) */
 
         setTextInput("");
     }
