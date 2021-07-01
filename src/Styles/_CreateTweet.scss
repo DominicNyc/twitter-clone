@@ -22,7 +22,8 @@
         flex-wrap: wrap;
         margin-top: 5%;
         margin-bottom: 10%;
-        width: 130%;
+        margin-left: 40%;
+        width: 40%;
     
         button {
             @include buttons;
@@ -37,7 +38,7 @@
 
         .MuiOutlinedInput-root {
             background-color: black;
-            width: 130%;
+            width: 100%;
         }
     }
 
